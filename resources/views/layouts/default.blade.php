@@ -7,19 +7,15 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  <style type="text/css">
-    body {
-      padding-top: 70px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
   <body>
 
     @include('layouts.partials.nav')
 
-    <div class="container">
+    <main role="main" class="container">
       @yield('content')
-    </div>
+    </main>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
   </body>

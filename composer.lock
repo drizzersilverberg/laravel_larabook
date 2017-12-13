@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "500f3229cc1ed5d66962fecc19e9e062",
+    "content-hash": "2cff540afb0ce4cbcdb01757be801a9a",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -407,6 +407,49 @@
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
+            "name": "laracasts/commander",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracasts/Commander.git",
+                "reference": "db267269c16c5d2ff0da29944bc8cff3e6eda7f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracasts/Commander/zipball/db267269c16c5d2ff0da29944bc8cff3e6eda7f3",
+                "reference": "db267269c16c5d2ff0da29944bc8cff3e6eda7f3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "~5.0",
+                "illuminate/support": "~5.0",
+                "mustache/mustache": "~2.6",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "~2.0.0",
+                "phpspec/phpspec": "~2.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Laracasts\\Commander": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                }
+            ],
+            "description": "Commands and domain events in Laravel",
+            "time": "2014-12-11T19:23:10+00:00"
+        },
+        {
             "name": "laravel/framework",
             "version": "v5.5.25",
             "source": {
@@ -807,6 +850,52 @@
                 "schedule"
             ],
             "time": "2017-01-23T04:29:33+00:00"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2017-07-11T12:54:05+00:00"
         },
         {
             "name": "nesbot/carbon",

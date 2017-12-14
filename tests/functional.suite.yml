@@ -11,3 +11,6 @@ modules:
         # add a framework module here
         - \Helper\Functional
         - Laravel5
+        - Asserts
+
+# NOTE: everytime you add new enabled module, run 'vendor/bin/codecept build'

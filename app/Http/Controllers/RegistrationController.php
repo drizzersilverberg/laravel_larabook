@@ -1,10 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\User;
-
-use Illuminate\Http\Request;
+use App\Http\Requests\RegistrationForm;
 
 class RegistrationController extends Controller
 {
@@ -13,10 +11,10 @@ class RegistrationController extends Controller
         return view('registration.create');
     }
 
-    public function store()
+    public function store(RegistrationForm $request)
     {
         $user = User::create(
-            \Request::only('username', 'email', 'password')
+            $request->only('username', 'email', 'password')
         );
 
         \Auth::login($user);

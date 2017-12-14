@@ -17,11 +17,11 @@ $I->click('Sign Up');
 $I->seeCurrentUrlEquals('');
 $I->see('Welcome to Larabook');
 
-/*
 $I->seeRecord('users', [
     'username' => 'JohnDoe',
     'email' => 'john@example.com',
-])
- */
+]);
+
+$I->assertTrue(Auth::check());
 
 # run this test by 'vendor/bin/codecept run functional'
